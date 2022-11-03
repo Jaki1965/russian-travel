@@ -1,0 +1,6 @@
+/* самые общие стили всего контента (page) */
+.page {
+  background:#2a2c2f;
+  color: white;
+  font-family: "Inter", "Arial", sans-serif;
+}

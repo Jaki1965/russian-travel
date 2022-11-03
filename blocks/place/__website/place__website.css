@@ -1,0 +1,7 @@
+/* стили элемента website с надписью URL и ссылкой на ресурс */
+.place__website {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+

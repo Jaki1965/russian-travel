@@ -1,0 +1,20 @@
+/* стили ссылок непосредственно */
+.header__lang-link {
+  /* border: 1px solid red; */
+  max-width: 29px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.header__lang-link:first-of-type {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+  line-height: 20px;
+  font-size: 18px;
+  }
+}

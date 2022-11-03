@@ -1,0 +1,6 @@
+/* модификатор для элемента title для ширины менее 1024, в певом блоке place, чтобы текст Куршская коса был в две строчки */
+@media screen and (max-width: 1023px) {
+  .place__title_width-min {
+    max-width: 320px;
+  }
+}
