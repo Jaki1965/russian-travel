@@ -2,7 +2,9 @@
 .photo-grid {
   /* border: 1px solid green; */
   max-width: 1184px;
-  margin: auto;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -29,6 +31,7 @@
 
 @media screen and (max-width: 767px) {
   .photo-grid {
+    max-width: 288px;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(12, 1fr);
     grid-gap: 12px;

@@ -11,6 +11,6 @@
     grid-template-columns: auto;
     grid-template-rows: repeat(5, auto);
     justify-content: space-between;
-    grid-row-gap: 30px;
+    grid-row-gap: 32px;   /* Исправлено по замечанию ревьюера - "На 320px не по макету Значение grid-row-gap для footer__links " */
   }
 }

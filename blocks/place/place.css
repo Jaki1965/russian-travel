@@ -7,12 +7,12 @@
   grid-template-rows: 76px auto;
   grid-column-gap: 40px;
   grid-row-gap: 48px;
-  padding-bottom: 80px;
+  padding-top: 80px;   
 }
 
-.place:last-child {
+/* .place:last-child {
   padding-bottom: 0;
-}
+} */                   /* по замечанию ревьюера - "От подхода с nth-child необходимо отказаться, карточки однотипные нет необходимости обращаться к определённо карточке в группе" */
 
 .place:nth-child(1),
 .place:nth-child(4) {
@@ -36,6 +36,7 @@
 
 @media screen and (max-width: 1023px) {
   .place {
+    padding-top: 73px; /* по замечанию ............. */
     grid-template-columns: 340px 352px;
     grid-template-rows: 46px auto;  
     grid-column-gap: 28px;
@@ -52,6 +53,9 @@
   .place:nth-child(4)>.place__website>.place__url-heating {
     margin-top: 0px;
   }
+  .place:nth-child(1)>.place__title {
+    max-width: 320px;
+  }                                        /* добавил псевдо калсс, чтобы толко один заголовок "Куршская коса был в две строчки */
 }
 
 @media screen and (max-width: 767px) {
@@ -59,7 +63,7 @@
     grid-template-columns: 320px;
     grid-template-rows: 35px 46px 320px auto; 
     grid-row-gap: 32px;
-    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .place:nth-child(1),
   .place:nth-child(4) {
@@ -67,8 +71,5 @@
   }
   .place:nth-child(1)>.place__website>.place__url-heating {
     margin-top: 0px;
-  }
-  /* .place:nth-last-child(5) {
-    padding-bottom: 0;
-  } */
+  } 
 }

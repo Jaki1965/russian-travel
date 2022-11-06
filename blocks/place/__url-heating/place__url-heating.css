@@ -3,6 +3,7 @@
   /* border: 1px solid violet; */
   margin: 30px 0 12px 0;
   color: #AAA;
+  text-transform: uppercase; /* внесено по замечанию ревьюера - "Для текста с верхним регистром необходимо указать правило" */
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 2px;

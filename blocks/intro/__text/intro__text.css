@@ -1,7 +1,6 @@
 /* стили текстового сообщения в секции intro */
 .intro__text {
   /* border: 1px solid orangered; */
-  margin: 0;
   margin: 40px 0 33px;
   max-width: 690px;
   font-size: 16px;

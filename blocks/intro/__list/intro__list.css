@@ -7,9 +7,8 @@
   text-align: left;
   line-height: 18px;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 700; /* исправил размер шрифта .. в самом макете не нашел, но коллеги в коментариях написали, что текст 700, а цифры 400 */
   max-width: 690px;
-  min-height: 90px;
 }
 
 @media screen and (max-width: 1023px) {

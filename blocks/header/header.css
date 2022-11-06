@@ -1,8 +1,9 @@
 /* общие стили шапки */
 .header {
-  /* border: 1px solid green; */
+  /*border: 1px solid green; */
   margin: auto;
   padding-top: 28px;
+  width: 100%;
   max-width: 1184px;
   display: flex;
   flex-direction: row;

@@ -6,6 +6,11 @@
   line-height: 18px;
   font-size: 16px;
   font-weight: 400;
+  transition: opacity 0.4s linear;
+}
+/* Исправлено по замечани ю ревьюера - "Ссылкам в header и footer нужно добавить эффект наведения с изменением прозрачности" */
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {

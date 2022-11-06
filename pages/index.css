@@ -9,6 +9,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_activ/header__lang-link_activ.css);
 /* самые общие стили тега main */
 @import url(../blocks/content/content.css);
 /* стили блока (секции) lead и его элементов */
@@ -23,6 +24,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-numbers/intro__list-numbers.css);
 /* стили блока (секции) photo-grid (сетка изображений) и его элементов */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -31,7 +33,6 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__title/_width-min/place__title_width-min.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heating/place__url-heating.css);
 @import url(../blocks/place/__link/place__link.css);
