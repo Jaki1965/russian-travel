@@ -28,8 +28,7 @@
   z-index: 2; 
 } 
 
-.cover__image-link:hover::before { 
-  transition: opacity 0.6s ease-in-out;  /* добавлено по предложению ревьюера - "Для плавности наведения будет круто пользоваться правилами transition" */
+.cover__image-link:hover::before {
   opacity: 0.8; 
 } 
 

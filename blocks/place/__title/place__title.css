@@ -1,6 +1,6 @@
 /* стили заголовков h2 в блоках place */
 .place__title {
-  /* border: 1px solid red; */
+  /*border: 1px solid rgb(0, 136, 255);*/
   margin: 0;
   line-height: 76px;
   font-size: 72px;
@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__title {
+    max-width: 328px;
     line-height: 46px;
     font-size: 42px;
   }

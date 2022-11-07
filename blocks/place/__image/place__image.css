@@ -1,6 +1,7 @@
 /* стили изображений в блоках place */
 .place__image {
   max-width: 460px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1279px) {
